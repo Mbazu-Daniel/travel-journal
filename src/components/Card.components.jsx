@@ -1,4 +1,5 @@
 import React from "react";
+import path from "../assets/path.svg"
 
 const Card = (props) => {
   return (
@@ -6,7 +7,7 @@ const Card = (props) => {
       <img src={props.imageUrl} className="card--img" />
       <aside className="card--details">
         <div className="card--direction">
-          <img src="../../src/assets/path.svg" className="card--path" />
+          <img src={path} className="card--path" />
           <p className="card--country">{props.location}  </p>
           <p className="card--map"><a href={props.googleMapsUrl}  target="_blank"> View on Google Maps</a> </p>
         </div>
