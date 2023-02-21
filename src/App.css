@@ -1,0 +1,98 @@
+/* NAVBAR */
+
+.nav--box {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.nav--img {
+  margin-right: 5px;
+}
+
+.nav--title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #ffffff;
+}
+
+/* CARD */
+
+.cardlist--box {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 40px;
+}
+
+.card--box {
+  display: flex;
+  margin-top: 20px;
+  
+}
+.card--details {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column
+}
+.card--img {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+}
+
+.card--direction {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card--path {
+  width: 7px;
+}
+.card--country {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.card--map {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.card--map a {
+  color: #918e9b;
+}
+
+.card--location {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.card--info{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #2B283A;
+width: 325px;
+margin-top: 5px;
+}
